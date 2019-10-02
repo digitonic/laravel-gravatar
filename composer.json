@@ -1,5 +1,5 @@
 {
-   "name":"thomaswelton/laravel-gravatar",
+   "name":"digitonic/laravel-gravatar",
    "description":"Laravel 5 Gravatar helper",
    "keywords":[
       "laravel",
@@ -18,11 +18,16 @@
          "name":"Antoine Augusti",
          "email":"antoine.augusti@gmail.com",
          "role":"Developer"
+      },
+      {
+         "name":"Steven Richardson",
+         "email":"steven@digitonic.co.uk",
+         "role":"Developer"
       }
    ],
    "require":{
       "php":">=5.4.0",
-      "illuminate/support":"~5.0",
+      "illuminate/support":"^5.6 || ^6.0",
       "thomaswelton/gravatarlib":"0.1.x"
    },
    "require-dev":{
